@@ -20,4 +20,4 @@ def numerate_rows_in_excel(file_path, start):
 
     df.to_excel(file_path, index=False)
 
-    return start + len(df) + 1
+    return start + len(df)
